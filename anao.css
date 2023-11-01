@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body{
+  background: blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+
+}
+
+figure.clique{
+  position: relative;
+
+
+}
+
+figure.clique img{
+  width: 100%;
+  height: 100%;
+
+}
+
+figure.clique figcaption{
+  opacity: 0;
+  position: absolute;
+  top:75px;
+  left: 80px;
+  background-color:rgba(0,0,0,0.4) ;
+  color: white;
+  width: 69%;
+  height: 68%;
+  padding: 27%;
+  box-sizing: border-box;
+  transition:opacity 1s;
+  border-radius: 100%;
+}
+figure.clique:hover figcaption{
+  opacity: 1;
+
+}
+
+
